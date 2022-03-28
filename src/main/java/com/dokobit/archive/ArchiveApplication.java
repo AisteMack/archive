@@ -1,13 +1,13 @@
-package com.dokobit.compressor;
+package com.dokobit.archive;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CompressorApplication {
+public class ArchiveApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CompressorApplication.class, args);
+		SpringApplication.run(ArchiveApplication.class, args);
 	}
 
 }
